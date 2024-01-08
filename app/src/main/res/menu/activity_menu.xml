@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_hello_activity"
+        android:title="Hello Activity"
+       />
+
+    <item
+        android:id="@+id/menu_fibonacci_activity"
+        android:title="Fibonacci Activity"
+        />
+
+    <item
+        android:id="@+id/menu_scrolling_ice_cold"
+        android:title="Scrolling Ice Cold"
+        />
+
+    <item
+        android:id="@+id/menu_second_activity"
+        android:title="Second Activity"
+      />
+
+    <item
+        android:id="@+id/menu_alarm_activity"
+        android:title="Alarm Activity"
+    />
+
+    <!-- Add other menu items as needed -->
+
+</menu>

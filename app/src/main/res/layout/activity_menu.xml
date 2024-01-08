@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="158dp"
+        android:layout_height="66dp"
+        android:text="Pilihan Menu"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnProjectHello"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Project Hello Button -->
+    <Button
+        android:id="@+id/btnProjectHello"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:onClick="onProjectClick"
+        android:text="Project Hello"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Project Fibonacci Button -->
+    <Button
+        android:id="@+id/btnProjectFibonacci"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:text="Project Fibonacci"
+        android:textColor="@android:color/white"
+        android:onClick="onProjectClick"
+        android:background="@drawable/btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintTop_toBottomOf="@id/btnProjectHello"
+        app:layout_constraintBottom_toTopOf="@+id/btnProjectScroller"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Project Scroller Button -->
+    <Button
+        android:id="@+id/btnProjectScroller"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:text="Project Scroller"
+        android:textColor="@android:color/white"
+        android:onClick="onProjectClick"
+        android:background="@drawable/btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintTop_toBottomOf="@id/btnProjectFibonacci"
+        app:layout_constraintBottom_toTopOf="@+id/btnProjectSecond"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Project Second Button -->
+    <Button
+        android:id="@+id/btnProjectSecond"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:text="Project Second"
+        android:textColor="@android:color/white"
+        android:onClick="onProjectClick"
+        android:background="@drawable/btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintTop_toBottomOf="@id/btnProjectScroller"
+        app:layout_constraintBottom_toTopOf="@+id/btnProjectAlarm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Project Alarm Button -->
+    <Button
+        android:id="@+id/btnProjectAlarm"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:text="Project Alarm"
+        android:textColor="@android:color/white"
+        android:onClick="onProjectClick"
+        android:background="@drawable/btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintTop_toBottomOf="@id/btnProjectSecond"
+        app:layout_constraintBottom_toTopOf="@+id/btnProjectMap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Project Map Button -->
+    <Button
+        android:id="@+id/btnProjectMap"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:text="Project Map"
+        android:textColor="@android:color/white"
+        android:onClick="onProjectClick"
+        android:background="@drawable/btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintTop_toBottomOf="@id/btnProjectAlarm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

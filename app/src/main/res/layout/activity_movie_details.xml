@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".MovieDetailsActivity">
+
+    <ImageView
+        android:id="@+id/movieImageView"
+        android:layout_width="260dp"
+        android:layout_height="390dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/action1" />
+
+    <TextView
+        android:id="@+id/yearTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movieImageView"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/synopsisTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yearTextView"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/trailerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/synopsisTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Watch Trailer"
+        android:onClick="watchTrailer" />
+
+</RelativeLayout>
