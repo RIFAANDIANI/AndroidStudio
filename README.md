@@ -39,4 +39,4 @@ Menampilkan perhitungan penjumlahan 1 atau Toast.
 
 ## **DEMO**
 
-![Demo](https://github.com/RIFAANDIANI/AndroidStudio/blob/fd0b67ec5c95e54320cb3ba07038d68699ed520b/Demo/Demo.gif)
+[Demo](https://github.com/RIFAANDIANI/AndroidStudio/blob/9ac7b4f86794c89a1b53a5c1da88f292a3061819/Demo/Demo.gif)
